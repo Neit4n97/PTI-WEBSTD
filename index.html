@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page da Academia</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+    <header>
+        <h1>Método de Treinamento Mais 5</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#vantagens">Vantagens</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#Instagram"><a target="_blank" href="https://www.instagram.com/mais5team/">Instagram</a></li>
+                <li><a href="#Ebook"><a target="_blank" href="https://johannschatz.com/ebook/">Ebook +5</a></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre o treinador</h2>
+            <p>Johan Schatz é um dos mais renomados nomes do meio da musculação, 
+                atuando entre os bodybuilders do fisiculturismo brasileiro. 
+                Johann possui uma ampla experiência como atleta de fisiculturismo profissional, 
+                atuando no Olympia e em outros shows, ao lado de lendas do esporte, como Dorian Yates.</p>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="container">
+            <h2>Sobre o método</h2>
+            <p>Aqui você terá acesso completo de como funciona o meu método de treinamento e irei compartilhar tudo com você.</p>
+            <p>Através desse protocolo, você terá acesso a uma periodização de treino de <strong>12 semanas</strong></p>
+            <p>Preparado para ir <strong>ATÉ O LIMITE?</strong></p>
+        </div>
+    </section>
+
+    <section id="vantagens">
+        <div class="container">
+            <h2>Vantagens e Benefícios</h2>
+            <img id="img1" src="./img/div4-desk.webp" alt="">
+            <img src="./img/Johann-1024x1024.webp" alt="">
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form action="processa_formulario.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <section><div class="container"> <img id="imgFinal"src="./img/fundo-desk.webp" alt=""></div></section>
+
+    <footer>
+        <div class="container">
+            <h5>&copy; 2024 johann schatz. Todos os direitos reservados.</h5>
+        </div>
+    </footer>
+</body>
+</html>
